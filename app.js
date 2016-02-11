@@ -87,7 +87,7 @@ var answerSeven = prompt('What other states have I lived in besides Washington? 
 console.log('answerSeven: ' + answerSeven);
 var correctAns7 = ['New York', 'Arizona', 'Louisiana']
 if (answerSeven === correctAns7[0] || correctAns7[1] || correctAns7[2]) {
-  alert('Correct! Well done!')
+  alert('Correct! Well done!');
   correctAnsTotal++;
 } else {
   alert('Sorry, that is incorrect...')
@@ -100,5 +100,5 @@ if (correctAnsTotal < 7) {
   alert('WELL DONE! You got 7 out of 7 correct!')
 }
 else {
-  
+
 }
