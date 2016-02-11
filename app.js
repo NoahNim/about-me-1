@@ -85,8 +85,8 @@ console.log(correctAnsTotal);
 
 var answerSeven = prompt('What other states have I lived in besides Washington? HINT: There are multiple correct answers...').toUpperCase();
 console.log('answerSeven: ' + answerSeven);
-var correctAns7 = ['New York', 'Arizona', 'Louisiana']
-if (answerSeven === correctAns7[0] || correctAns7[1] || correctAns7[2]) {
+var correctAns7 = ['NEW YORK', 'ARIZONA', 'LOUISIANA'];
+if (answerSeven === correctAns7[0] || answerSeven === correctAns7[1] || answerSeven === correctAns7[2]) {
   alert('Correct! Well done!');
   correctAnsTotal++;
 } else {
