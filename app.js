@@ -30,7 +30,7 @@ if (answerTwo === 'N' || answerTwo === 'NO' || answerTwo === 'NA') {
 } else {
   alert('I SAID ANSWER WITH A YES OR A NO!!!');
 }
-console.log(correctAnsTotal)
+console.log(correctAnsTotal);
 
 var answerThree = prompt('Right, now for an easy one. Is The Weekend\'s album: "Beauty Behind the Madness" great baby making music acording to Dave?').toUpperCase();
 console.log('answerThree: ' + answerThree);
@@ -40,7 +40,7 @@ if (answerThree === 'Y' || answerThree === 'YA' || answerThree === 'YES') {
 } else if (answerThree === 'N' || answerThree === 'NO' || answerThree === 'NA') {
   alert('What\'s wrong with you!?!');
 } else {
-  alert('I SAID ANSWER WITH A YES OR A NO!')
+  alert('I SAID ANSWER WITH A YES OR A NO!');
 }
 console.log(correctAnsTotal);
 
@@ -52,19 +52,19 @@ if (answerFour === 'Y' || answerFour === 'YES' || answerFour === 'YA') {
 } else if (answerFour === 'N' || answerFour === 'NO' || answerFour === 'NA') {
   alert('WRONG');
 } else {
-  alert('I SAID ANSWER WITH A YES OR A NO!')
+  alert('I SAID ANSWER WITH A YES OR A NO!');
 }
 console.log(correctAnsTotal);
 
 var answerFive = prompt('Thanks for playing! One last question. Do you think Dave loves you?').toUpperCase();
 console.log('answerFive ' + answerFive);
 if (answerFive === 'YA' || answerFive === 'YES' || answerFive === 'Y') {
-  alert('Obviously!')
+  alert('Obviously!');
   correctAnsTotal++;
 } else if (answerFive === 'N' || answerFive === 'NO' || answerFive === 'NA') {
-  alert('Don\'t be like that boo!')
+  alert('Don\'t be like that boo!');
 } else {
-  alert('I SAID ANSWER WITH A YES OR A NO!')
+  alert('I SAID ANSWER WITH A YES OR A NO!');
 }
 console.log(correctAnsTotal);
 
@@ -74,9 +74,9 @@ for (var trys = 0; trys < 4; trys++) {
   if (answerSix > 7) {
     alert('Too high!');
 } else if (answerSix < 7) {
-    alert('Too low!')
+    alert('Too low!');
 } else {
-  alert('CORRECT!')
+  alert('CORRECT!');
   trys=4;
   correctAnsTotal++;
 }
@@ -90,14 +90,14 @@ if (answerSeven === correctAns7[0] || answerSeven === correctAns7[1] || answerSe
   alert('Correct! Well done!');
   correctAnsTotal++;
 } else {
-  alert('Sorry, that is incorrect...')
+  alert('Sorry, that is incorrect...');
 }
 console.log(correctAnsTotal);
 
 if (correctAnsTotal < 7) {
-  alert('You got ' + correctAnsTotal + 'out of 7 correct. So close! Keep trying!')
+  alert('You got ' + correctAnsTotal + 'out of 7 correct. So close! Keep trying!');
 } else if (correctAnsTotal === 7) {
-  alert('WELL DONE! You got 7 out of 7 correct!')
+  alert('WELL DONE! You got 7 out of 7 correct!');
 }
 else {
 
