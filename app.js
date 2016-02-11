@@ -55,12 +55,16 @@ if (answerFive === 'YA' || answerFive === 'YES' || answerFive === 'Y') {
   alert('I SAID ANSWER WITH A YES OR A NO!')
 }
 
-var answerSix = prompt('What is my favorite number?')
-console.log('answerSix: ' + answerSix);
-if (answerSix > 7) {
-alert('Too high!');
+
+for (var trys = 0; trys < 4; trys++) {
+  var answerSix = prompt('What is my favorite number?')
+  console.log('answerSix: ' + answerSix);
+  if (answerSix > 7) {
+    alert('Too high!');
 } else if (answerSix < 7) {
-  alert('Too low!')
+    alert('Too low!')
 } else {
   alert('CORRECT!')
+  trys=4;
+}
 }
